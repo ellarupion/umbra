@@ -4,6 +4,10 @@ A tiny tray toggle for the Windows 10/11 light/dark theme, with an optional dail
 
 One C# file. No dependencies, no installer, no background service. ~10 KB exe, ~10 MB RAM.
 
+## Download
+
+Grab `umbra.exe` from [Releases](https://github.com/ellarupion/umbra/releases/latest) and run it. Needs .NET Framework 4, which is built into Windows 10/11.
+
 ## Usage
 
 - **Left click** the ◐ icon next to the clock: switch light ↔ dark
@@ -14,7 +18,7 @@ One C# file. No dependencies, no installer, no background service. ~10 KB exe, ~
 
 A manual toggle stays until the next scheduled switch.
 
-## Build
+## Build from source
 
 The C# compiler ships with Windows, so you don't need to install anything:
 
